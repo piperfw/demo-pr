@@ -1,2 +1,2 @@
 # Demo PR
-Using Zensical static generator
+Created using [Zensical](https://zensical.org/).

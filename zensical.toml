@@ -1,6 +1,22 @@
 [project]
 site_name = "My Site"
 
+nav = [
+  { "Home" = "index.md" },
+  { "Command Line & Git" = [
+    { "Introduction" = "git-cli/index.md" },
+  ] },
+  { "Testing" = [
+    "testing/index.md",
+  ] },
+  { "Containers" = [
+    "containers/index.md",
+  ] },
+  { "Kubernetes" = [
+    "kubernetes/index.md",
+  ] },
+]
+
 [project.theme]
 variant = "modern"
 
@@ -13,3 +29,4 @@ toggle.name = "Switch to dark mode"
 scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
+
