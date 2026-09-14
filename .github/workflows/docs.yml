@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - container-lessons
 permissions:
   contents: read
   pages: write
